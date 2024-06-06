@@ -46,7 +46,7 @@ async function buscarPerguntas() {
 function montarPergunta() {
     const main = document.querySelector("main")
 
-    main.innerHTML = ` 
+    main.innerHTML = `
         <section class="pergunta">
             <div>
                 <p>Questão ${pergunta} de 10</p>
@@ -96,7 +96,9 @@ function montarPergunta() {
             </form>
 
             <button>Responder</button>
-        </section>`
+        </section>
+    `
+        
 }
 
 function alterarSinais(texto) {
