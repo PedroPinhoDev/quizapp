@@ -40,7 +40,7 @@ async function buscarPerguntas() {
             }
         })
     })
-
+    
 }
 
 function montarPergunta() {
